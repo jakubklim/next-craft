@@ -1,6 +1,6 @@
 # Next-Craft
 
-Customize your Craft.do share pages domains and manage everything in Craft.do one page!
+Customize your Craft.do share pages domains and manage everything in Craft.do one page! 
 
 ## Demo
 
