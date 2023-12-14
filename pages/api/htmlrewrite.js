@@ -89,6 +89,10 @@ module.exports = async (req, res) => {
       '<link rel="icon" href="/favicon.svg">'
     )
     .replace(
+      '<link rel="icon" href="https://www.craft.do/share/static/favicon.ico">',
+      '<link rel="icon" href="/favicon.svg">'
+    )
+    .replace(
       '<link rel="apple-touch-icon" href="/share/static/logo-192.png">',
       '<link rel="apple-touch-icon" href="/apple-touch-icon.png">'
     )
@@ -112,6 +116,7 @@ module.exports = async (req, res) => {
 }
 
 const headStr = `
+
   <script
     crossOrigin="anonymous"
     defer="defer"
